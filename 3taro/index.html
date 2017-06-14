@@ -1,26 +1,23 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <style type="text/css">  
+    .ifrm-container {
+      width:300px;
+      height:250px;
+      overflow:auto;
+      -webkit-overflow-scrolling:touch;
+    }
+    .ifrm {
+      width:100%;
+      height:100%;
+      border:none;
+    }
+  </style>
 </head>
-<style >
-    .iframe-wrapper { 
-    	-webkit-overflow-scrolling: touch;
-    	overflow: auto;
-    };
-</style>
 <body>
-<div id="github">
-	元ページ
-</div>
-<div id="iframe-scroll" style="width:100%; height:200px;">
-    <iframe src="https://qiita.com/ta__ho/items/904290fa0c8c60b25af1" width="100%" height="100%"></iframe>
-</div>
-<div id="footer-logo">
-	<a href="https://github.com/">
-		<img src="github-logo-footer.png" style="width:100%">
-	</a>	
-</div>
+  <div class="ifrm-container">
+    <iframe class="ifrm" scrolling="auto" src="http://www.infoscoop.org"></iframe>
+  </div>
 </body>
 </html>
